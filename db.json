@@ -83,6 +83,41 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "description": "Tacos",
+      "category": "Tacos",
+      "amount": "4.00",
+      "date": "2023-03-03",
+      "id": 13
+    },
+    {
+      "description": "More Tacos",
+      "category": "Tacos",
+      "amount": "4.00",
+      "date": "2023-03-03",
+      "id": 14
+    },
+    {
+      "date": "2023-03-21",
+      "description": "Jesse",
+      "category": "Toys",
+      "amount": "22",
+      "id": 15
+    },
+    {
+      "date": "2023-03-21",
+      "description": "Nuclear Secrets",
+      "category": "Toys",
+      "amount": "40.99",
+      "id": 16
+    },
+    {
+      "date": "2023-03-21",
+      "description": "Gumby Action Figure",
+      "category": "Toys",
+      "amount": "-200.00",
+      "id": 17
     }
   ]
 }
