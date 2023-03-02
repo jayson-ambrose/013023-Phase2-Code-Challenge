@@ -2,9 +2,7 @@ import React, {useState} from "react";
 
 function AddTransactionForm({postTransaction}) {
 
-  const [formData, setFormData] = useState({
-
-  })
+  const [formData, setFormData] = useState({})
 
   function handleChange (e) {
     const {name, value} = e.target
@@ -17,8 +15,6 @@ function AddTransactionForm({postTransaction}) {
     e.preventDefault()
     postTransaction(formData)
   }
-
-  console.log(formData)
 
   return (
     <div className="ui segment">

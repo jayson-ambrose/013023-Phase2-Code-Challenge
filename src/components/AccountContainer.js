@@ -16,7 +16,6 @@ function AccountContainer() {
   }, [])
 
   function postTransaction(obj) {
-    console.log(obj)
 
     fetch("http://localhost:8001/transactions", {
       method: 'POST',
@@ -28,14 +27,12 @@ function AccountContainer() {
     })
     .then(resp=>resp.json())
     .then(data => setTransactions([...transactions, data]))
-
   }
 
   const handleSearch = (e) => {
     setSearch(e.target.value)    
   }
-  
-  console.log(search)
+
   return (
     <div>
       <Search search={search} handleSearch={handleSearch}/>

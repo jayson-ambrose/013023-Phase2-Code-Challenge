@@ -4,7 +4,7 @@ import Transaction from "./Transaction";
 function TransactionsList({transactions, search}) {
 
   const renderedTransactions = transactions.filter(transaction => transaction.description.includes(search))
-    .map(transaction=> <Transaction key={transaction.key} transaction={transaction}/>)
+    .map(transaction=> <Transaction key={transaction.id} transaction={transaction}/>)
 
   return (
     <table className="ui celled striped padded table">

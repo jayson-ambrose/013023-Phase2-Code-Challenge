@@ -85,39 +85,25 @@
       "amount": -975
     },
     {
-      "description": "Tacos",
-      "category": "Tacos",
-      "amount": "4.00",
-      "date": "2023-03-03",
+      "description": "Tacos from Taco Bell",
+      "date": "2023-03-02",
+      "category": "Food",
+      "amount": "-6.50",
       "id": 13
     },
     {
-      "description": "More Tacos",
-      "category": "Tacos",
-      "amount": "4.00",
-      "date": "2023-03-03",
+      "description": "Tacos from Taco Bell",
+      "category": "Food",
+      "amount": "-8.50",
+      "date": "2023-03-02",
       "id": 14
     },
     {
-      "date": "2023-03-21",
-      "description": "Jesse",
-      "category": "Toys",
-      "amount": "22",
+      "description": "Selling military secrets",
+      "category": "Income",
+      "amount": "12.50",
+      "date": "2023-03-02",
       "id": 15
-    },
-    {
-      "date": "2023-03-21",
-      "description": "Nuclear Secrets",
-      "category": "Toys",
-      "amount": "40.99",
-      "id": 16
-    },
-    {
-      "date": "2023-03-21",
-      "description": "Gumby Action Figure",
-      "category": "Toys",
-      "amount": "-200.00",
-      "id": 17
     }
   ]
 }
