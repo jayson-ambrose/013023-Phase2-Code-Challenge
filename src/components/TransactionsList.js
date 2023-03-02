@@ -3,7 +3,7 @@ import Transaction from "./Transaction";
 
 function TransactionsList({transactions, search}) {
 
-  const renderedTransactions = transactions.filter(transaction => transaction.description.includes(search))
+  const renderedTransactions = transactions.filter(transaction => transaction.description.toLowerCase().includes(search.toLowerCase()))
     .map(transaction=> <Transaction key={transaction.id} transaction={transaction}/>)
 
   return (

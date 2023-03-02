@@ -104,6 +104,13 @@
       "amount": "12.50",
       "date": "2023-03-02",
       "id": 15
+    },
+    {
+      "description": "MTG cards",
+      "date": "2023-03-02",
+      "category": "Toys",
+      "amount": "-40.57",
+      "id": 16
     }
   ]
 }
